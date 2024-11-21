@@ -1,0 +1,39 @@
+{
+  "name": "@syncfusion/ej2-javascript-document-explorer",
+  "version": "1.0.0",
+  "description": "Essential JS 2 for Javascript - Document Explorer",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open",
+    "ci-publish": "gulp publish-sample"
+  },
+  "author": "Syncfusion Inc.",
+  "license": "SEE LICENSE IN license",
+  "devDependencies": {
+    "@syncfusion/ej2-showcase-helper": "*",
+    "css-loader": "^6.8.1",
+    "dotenv": "^16.4.5",
+    "dotenv-webpack": "^8.1.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-base": "*",
+    "@syncfusion/ej2-buttons": "*",
+    "@syncfusion/ej2-documenteditor": "*",
+    "@syncfusion/ej2-filemanager": "*",
+    "@syncfusion/ej2-image-editor": "*",
+    "@syncfusion/ej2-navigations": "*",
+    "@syncfusion/ej2-pdfviewer": "*",
+    "@syncfusion/ej2-popups": "*",
+    "@syncfusion/ej2-spreadsheet": "*",
+    "copy-webpack-plugin": "^11.0.0"
+  }
+}
